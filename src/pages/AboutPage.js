@@ -2,6 +2,7 @@ import { Col, Row, Container, Card, CardBody, CardHeader } from 'reactstrap';
 import SubHeader from '../components/SubHeader';
 import PartnersList from '../features/partners/PartnersList';
 
+
 const AboutPage = () => {
   return (
     <Container>
@@ -46,12 +47,12 @@ const AboutPage = () => {
                   I will not follow where the path may lead, but I will go where
                   there is no path, and I will leave a trail.
                 </p>
-                <foooter className='blockquote-footer'>
+                <footer className='blockquote-footer'>
                   Muriel Strode,{' '}
                   <cite title='Source Title'>
                     "Wind-Wafted Wild Flowers" - The Open Court, 1903
                   </cite>
-                </foooter>
+                </footer>
               </blockquote>
             </CardBody>
           </Card>
